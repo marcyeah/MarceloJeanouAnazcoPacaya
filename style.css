@@ -2,6 +2,19 @@ body {
     margin: 40px;
     background-color: #f8faf7;
   }
-  .exampleone {  
+header {
+    font-family: Arial;
+}
+.exampleone {  
     margin-left: 230px
+  }
+.imagen-flotante-l {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 3px;
+  }
+.imagen-flotante-r {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 3px;
   }
