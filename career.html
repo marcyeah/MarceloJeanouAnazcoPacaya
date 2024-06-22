@@ -9,10 +9,50 @@
     <title>Marcelo Jeanou Añazco Pacaya</title>
 </head>
 
+<style>
+	body {
+    margin: 40px;
+    background-color: #f8faf7;
+  	}
+	header {
+		font-family: Arial;
+	}
+	.exampleone {  
+		margin-left: 230px
+	}
+	.imagen-flotante-l {
+		float: left;
+		margin-right: 20px;
+		margin-bottom: 3px;
+	}
+	.desktop-table tr td {
+		text-align: center;
+	}
+	.mobile-table {
+		display: none;
+	}
+	@media (max-width: 533px){
+		.mobile-table {
+			min-width: 118px;
+			max-width: 133px;
+			display: block;
+			background-color: #185324;
+			position: relative;
+			margin-top: 20px;
+			margin-left: 55.5px;
+			left: 40%;
+			transform: translate(-60%);
+		}
+		.desktop-table {
+			display: none;
+		}
+	}
+</style>
+
 <header>
-  <h1 style="text-align: center; color: white; background-color: black; padding: 20px; min-width: 145px;">
-    Marcelo Jeanou Añazco Pacaya
-  </h1>
+    <h1 style="text-align: center; color: white; background-color: black; padding: 20px; min-width: 145px;">
+        Marcelo Jeanou Añazco Pacaya
+    </h1>
 </header>
 
 <body>
@@ -35,9 +75,8 @@
     <h1 style="font-family:calibri;">
         Carrera
     </h1>
-
-      <img class = "imagen-flotante-l" src="img3.jpg" alt="img3.jpg" width="283" height="224">
-      <p style="font-family:cambria; font-size: large;">
+    <img class = "imagen-flotante-l" src="img3.jpg" alt="img3.jpg" width="283" height="224" style="margin-top: 5px;">
+    <p style="font-family:cambria; font-size: large;">
         La carrera de Ciencias de la Computación ha impulsado el avance de la tecnología en beneficio de la sociedad, la computación
         básicamente es la relación del binomio, conformado por el humano (inteligencia) y el computador (rapidez), la computación trata de
         lograr sacar el mayor beneficio de esta relación, por ejemplo, para hacer un programa (software) no solo basta con tener una buena
@@ -46,8 +85,7 @@
         la lógica por detrás, que hubiese sido de nosotros si Alan Turing no hubiese hallado la forma de resolver los códigos encriptados de 
         manera eficiente, talvez la guerra nunca hubiese terminado. Si bien la computadora brinda rapidez en sus cálculos, el humano es quien
         se encarga de hacerla pensar correctamente.
-      </p>
-  <script src=" script.js"></script>
+    </p>
 </body>
 
 </html>

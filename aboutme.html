@@ -9,6 +9,46 @@
     <title>Marcelo Jeanou Añazco Pacaya</title>
 </head>
 
+<style>
+	body {
+    margin: 40px;
+    background-color: #f8faf7;
+  	}
+	header {
+		font-family: Arial;
+	}
+	.exampleone {  
+		margin-left: 230px
+	}
+	.imagen-flotante-l {
+		float: left;
+		margin-right: 20px;
+		margin-bottom: 3px;
+	}
+	.desktop-table tr td {
+		text-align: center;
+	}
+	.mobile-table {
+		display: none;
+	}
+	@media (max-width: 533px){
+		.mobile-table {
+			min-width: 118px;
+			max-width: 133px;
+			display: block;
+			background-color: #185324;
+			position: relative;
+			margin-top: 20px;
+			margin-left: 55.5px;
+			left: 40%;
+			transform: translate(-60%);
+		}
+		.desktop-table {
+			display: none;
+		}
+	}
+</style>
+
 <header>
     <h1 style="text-align: center; color: white; background-color: black; padding: 20px; min-width: 145px;">
         Marcelo Jeanou Añazco Pacaya
@@ -36,7 +76,7 @@
         Sobre mí
     </h1>
 
-    <img class = "imagen-flotante-l" src="img.jpg" alt="img.jpg" width="200" height="200">
+    <img class = "imagen-flotante-l" src="img.jpg" alt="img.jpg" width="200" height="200" style="margin-top: 5px;">
     <p style="font-family:cambria; font-size: large;">
         Mi nombre es Marcelo Añazco Pacaya, tengo 19 años de edad, nací el 17 de febrero del 2005, desde los 12 años empecé a interesarme por el mundo de la computación (aunque debo admitir que
         no soy mucho de programar sitios web). Aparte de la programación me gusta la música, mayormente electrónica, rock y talvez algo de pop o indie, prefiero mil veces el frío antes que el calor, así como los días nublados, me encanta investigar sobre temas de ciencia, medicina, filosofía y a veces política, aunque actualmente no mucho.
@@ -45,7 +85,6 @@
         prefiero lo salado antes que lo dulce y no me gusta publicar mucho sobre mi vida privada (menos mal esto nadie lo va a leer), me gustaría jugar algún deporte, se me da un poco bien la natación, sin embargo, soy malo para el fútbol,
         no es que no me guste, simplemente no se me da, asi que no cuenten conmigo en los torneos de la san pablo jajaja, preferiría tenis de mesa, ya que si bien no soy el mejor, mi nivel es regular y me gusta, me relaja.
     </p>
-    <script src=" script.js"></script>
 </body>
 
 </html>
